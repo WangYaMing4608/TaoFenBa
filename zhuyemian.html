@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/tongyong.css" />
+		<link rel="stylesheet" href="css/zhuye.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/top.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#top22").load("taofenba.html",function(data,textStatus){
+					if(textStatus=="success"){
+						topPage();
+					}
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<div id="top22"></div>
+	</body>
+</html>

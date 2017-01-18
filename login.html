@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/tongyong.css" />
+    <link rel="stylesheet" href="scss/login.css" />
+    <style>
+    	@media(max-width:1150px){
+    		#center{width:100%;height:500px;}
+    		#log {display:none;}
+    		#dl{width:100%;height:500px;margin-top:45px;position: relative;}
+    		#deng_foot{width:100%;height:83px;border-top:1px solid #dcdcdc;display:none;}
+			.deng_ba{display:none;}
+			 #p_foot{display:none;}
+			#deng{width:313px; height:460px;border:1px solid #999;border-top:1px solid #f53e7b;float:left;
+			position: fixed;left:50%;margin-left:-157px;}
+		}
+    </style>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<div id="center">
+		<div id="main">
+			<div id="log">
+				<ul>
+					<li class="log"><a href="#"><img src="images/log_08.jpg" alt=""></li>
+					<li><a href="#"><img src="images/deng_03.jpg" alt=""><span class="name">
+					超高性价比	</span><span>品牌低价折扣+超高返利</span></a></li>
+					<li><a href="#"><img src="images/deng_05.jpg" alt=""><span class="name">
+					闪电到账</span><span>确认收货后返利直接到账</span></a></li>
+					<li><a href="#"><img src="images/deng_07.jpg" alt=""><span class="name">
+					正品保障</span><span>买手优选100%正品</span></a></li>
+					<li><a href="#"><img src="images/deng_09.jpg" alt=""><span class="name">
+					无忧退货</span><span>7天无理由退换货</span></a></li>
+				</ul>
+			</div>
+			<div id="dl">
+				<span class="deng_ba"><img src="images/deng_ba_16.jpg" alt=""></span>
+			    <div id="deng">
+			    	<h3>手机号登录</h3>
+			        <ul>
+			            <li class="int"><input type="text" id="userAccount" value="请输入11为手机号"/></li>
+			            <li><span class="comment" id="comment1"></span></li>
+			            <li class="int"><input type="password" id="password" placeholder="密码"/></li>
+			            <li><span class="comment"></span></li>
+			            <li class="int"><input type="txet" id="code" maxlength=4 value="请输入图片验证码"/><span id="code1">kf48</span><span class="code1" id="code2">看不清换一张</span></li>
+			        	<li><span class="comment" id="comment2"></span></li>
+			        </ul>
+			        <span id="sign">登陆</span>
+			        <p class="jieshi">说明:未注册淘粉吧的手机号,首次登陆时将自动注册,且代表您已同意<a href="">《淘粉吧用户服务协议》</a></p>
+			        <p class="check"><input type="checkbox" id="checkbox"/><label for="checkbox">两周内免登录</label></p>
+			   		<fieldset>
+			   			<legend>您也可以使用以下方式登录</legend>
+			   			<img src="images/leb_19.jpg" alt="" />
+			   		</fieldset>
+			    </div>     
+			</div>
+			<div id="deng_foot">
+				<ul>
+					<li><a href="#">关于淘宝吧</a></li>
+					<li><a href="#">信用认证</a></li>
+					<li><a href="#">商务合作</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</div>
+			<p id="p_foot">copyright@2011-2015 Taofen8.com 浙ICP备12042948号-1</p>
+		</div>
+	</div>		
+</body>
+</html>
